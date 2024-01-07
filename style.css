@@ -1,0 +1,135 @@
+body {
+  background-color: #ece3d5;
+  font-family: "Prata", Sans-serif;
+  color: #332828;
+}
+main {
+  margin: 0px 60px 0px 60px;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav a {
+  font-size: 30px;
+  font-family: "Prata", Sans-serif;
+  color: #332828;
+  display: flex;
+  text-decoration: none;
+  padding: 1em;
+}
+iframe {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+}
+.frame_wrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: calc(100% / (16 / 9));
+}
+h2 {
+  font-family: "Prata", Sans-serif;
+  color: #332828;
+}
+h1 {
+  font-size: 60px;
+  font-family: common-ligatures;
+  color: #332828;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#baggrundsfoto {
+  background-image: url(billeder/img1.webp);
+  background-size: cover;
+  background-color: pink;
+  min-height: 30em;
+  max-width: 100%;
+}
+.over {
+  color: #f86d60;
+  padding-top: 15%;
+  font-size: 80px;
+}
+img {
+  background-size: cover;
+  max-width: 100%;
+}
+video {
+  background-size: cover;
+  max-width: 100%;
+}
+.film {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.center {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.grid_1 {
+  padding-top: 15%;
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  gap: 10px;
+  height: 100%;
+}
+
+.item_1 {
+  grid-row-start: 1;
+  grid-column-start: 3;
+
+  grid-row-end: 2;
+  grid-column-end: 5;
+}
+.item_2 {
+  grid-row-start: 2;
+  grid-column-start: 1;
+
+  grid-row-end: 4;
+  grid-column-end: 3;
+}
+.item_3 {
+  grid-row-start: 1;
+  grid-column-start: 1;
+
+  grid-row-end: 2;
+  grid-column-end: 3;
+}
+.item_4 {
+  grid-row-start: 2;
+  grid-column-start: 3;
+
+  grid-row-end: 3;
+  grid-column-end: 5;
+}
+.item_5 {
+  grid-row-start: 3;
+  grid-column-start: 3;
+
+  grid-row-end: 4;
+  grid-column-end: 5;
+}
+.item_6 {
+  grid-row-start: 4;
+  grid-column-start: 1;
+
+  grid-row-end: 5;
+  grid-column-end: 3;
+}
+.item_7 {
+  grid-row-start: 4;
+  grid-column-start: 3;
+
+  grid-row-end: 5;
+  grid-column-end: 5;
+}
